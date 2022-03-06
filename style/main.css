@@ -1,0 +1,44 @@
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: 85vh;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img {
+  height: 8rem;
+}
+button {
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #5641c1;
+  color: whitesmoke;
+  font-weight: 600;
+  cursor: pointer;
+}
+button:active {
+  background-color: #0570c0;
+}
+section {
+  margin-top: 2rem;
+  border: #5641c1 1px solid;
+  flex-grow: 1;
+  padding: 2rem;
+  overflow: auto;
+  background-color: lightcyan;
+}
+
+#output {
+  font-family: "Courier New", Courier, monospace;
+  font-size: smaller;
+}
+
+@media (min-width: 640px) {
+  main {
+    max-width: none;
+  }
+}

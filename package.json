@@ -1,0 +1,16 @@
+{
+  "name": "astar-suite-electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "codespool <sasa.pul@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^17.1.0"
+  },
+  "dependencies": {
+    "execa": "^6.1.0"
+  }
+}
